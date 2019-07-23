@@ -11,6 +11,5 @@
 #end
 
 def square_array
-  new_array = square_array.map { [i] i ** 2 }
-  return new_array
+  square_array.map { [i] i ** 2 }
 end
